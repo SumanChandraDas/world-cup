@@ -1,0 +1,62 @@
+/* fonts  */
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500;700&display=swap');
+
+/* common styles  */
+body {
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* top banner or headar style start  */
+.banner {
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    background-color: #0c0909;
+    border-radius: 30px;
+}
+
+.banner:hover .banner-images img {
+    transform: rotate(6deg) scale(1.1);
+    transition: transform 3s;
+}
+
+.banner-detail {
+    width: 48%;
+}
+
+.banner-title {
+    font-size: 3em;
+    color: #FFFFFF;
+}
+
+.banner-detail p {
+    color: #FFFFFF;
+}
+
+.link-button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(240, 11, 11);
+    border-radius: 5px;
+    padding: 16px 25px;
+}
+
+.banner-images {
+    width: 48%;
+    overflow: hidden;
+}
+
+.banner-images img {
+    margin-left: 10%;
+    width: 80%;
+    margin-right: 10%;
+}
