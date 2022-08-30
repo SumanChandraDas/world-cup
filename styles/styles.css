@@ -14,6 +14,11 @@ body {
     margin-right: 10%;
 }
 
+.selected-button {
+    background-color: rgb(240, 11, 11) !important;
+
+}
+
 /* top banner or headar style start  */
 .banner {
     padding-left: 2%;
@@ -60,3 +65,69 @@ body {
     width: 80%;
     margin-right: 10%;
 }
+
+/* top banner or headar style end  */
+/* blog section sart  */
+.blog-section {
+    margin-top: 130px;
+    display: grid;
+    grid-template-columns: 312px 1fr;
+    width: 100%;
+    column-gap: 24px;
+}
+
+.side-menu-buttons {
+    display: flex;
+    flex-direction: column;
+    background-color: #161616;
+    width: 312px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    border-radius: 10px;
+
+}
+
+.side-menu-button {
+    background-color: #FFFFFF;
+    display: inline-block;
+    color: black;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 252px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+}
+
+.blog {
+    height: 362px;
+    border-radius: 10px;
+}
+
+.blog-image img {
+    width: 100%;
+}
+
+.blog-details {
+    padding: 20px;
+}
+
+.blog-details h3 {
+    font-size: 18px;
+
+}
+
+.blog-details span {
+    margin-right: 30px;
+}
+
+/* blog section end  */
