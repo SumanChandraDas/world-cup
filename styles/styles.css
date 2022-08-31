@@ -38,7 +38,7 @@ body {
 }
 
 .banner-title {
-    font-size: 3em;
+    font-size: 3.5vw;
     color: #FFFFFF;
 }
 
@@ -69,7 +69,7 @@ body {
 /* top banner or headar style end  */
 /* blog section sart  */
 .blog-section {
-    margin-top: 130px;
+    margin-top: 5vw;
     display: grid;
     grid-template-columns: 312px 1fr;
     width: 100%;
@@ -89,7 +89,7 @@ body {
 }
 
 .side-menu-button {
-    background-color: #f1d8d8;
+    background-color: #dbd9d9;
     display: inline-block;
     color: black;
     padding-top: 16px;
@@ -100,6 +100,8 @@ body {
     border-radius: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
+    border: 0.2px solid rgba(128, 128, 128, 0.205);
+
 }
 
 .blogs {
@@ -110,6 +112,7 @@ body {
 
 .blog {
     height: 362px;
+    border: 0.2px solid rgba(128, 128, 128, 0.205);
     border-radius: 10px;
 }
 
@@ -140,6 +143,7 @@ body {
 /* blog section end  */
 /* footer section style  */
 footer {
+    margin-top: 2em;
     background-color: #161616;
     padding: 5vw 0;
 }
@@ -181,3 +185,35 @@ footer hr {
 }
 
 /* footer section style end  */
+/* media Quary start  */
+/* tablate devises  */
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+    .blog-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .side-menu-buttons {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: white;
+        /* grid-template-columns: repeat(3, 1fr); */
+    }
+
+    .side-menu-button {
+        margin: 3px;
+    }
+
+    .hidden-button {
+        display: block;
+    }
+
+}
+
+
+/* media quary end  */
