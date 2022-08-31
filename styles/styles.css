@@ -202,7 +202,7 @@ footer hr {
         flex-direction: row;
         width: 100%;
         background-color: white;
-        /* grid-template-columns: repeat(3, 1fr); */
+
     }
 
     .side-menu-button {
@@ -215,5 +215,44 @@ footer hr {
 
 }
 
+/* mobile devises  */
+@media only screen and (max-width:688px) {
+    .banner {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .banner-detail {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-images {
+        width: 100%;
+    }
+
+    .blog-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .side-menu-buttons {
+        width: 100%;
+        background-color: white;
+
+    }
+
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blog {
+        height: 100%;
+    }
+
+    .footer-items {
+        flex-direction: column;
+    }
+}
 
 /* media quary end  */
